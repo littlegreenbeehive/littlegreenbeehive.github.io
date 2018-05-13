@@ -37,11 +37,23 @@ h2 {
 	font-size: 1.4em;
 }
 
-p, span, a {
+p, span{
 	font-family: didot;
 	color: rgb(59, 100, 46);
 	text-align: justify;
 	font-size: 1.2em;
+}
+
+a {
+	transition: all 0.1s ease;
+	font-family: didot;
+	color: rgba(59, 100, 46, 0.8);
+	text-align: justify;
+	font-size: 1.2em;
+}
+
+a:hover {
+	color: rgba(59, 100, 46, 1.0);
 }
 
 span:after {
