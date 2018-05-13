@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "didot";
+    src: url(didot_regular.ttf) format("truetype");
+}
+
+body, html {
+	height: 100%;
+	margin: 0px;
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("img/backdrop.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+
+h1, h2 {
+	font-family: didot;
+	color: rgb(59, 100, 46);
+}
+
+h1 {
+	text-align: center;
+	width:100%;
+  	font-size: 3.7vw;
+}
+
+h2 {
+	font-size: 1.4em;
+}
+
+p, span, a {
+	font-family: didot;
+	color: rgb(59, 100, 46);
+	text-align: justify;
+	font-size: 1.2em;
+}
+
+span:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+hr {
+	height: 0px;
+	border: none;
+	border-bottom: 1px solid rgb(59, 100, 46);
+}
+
+.spacer {
+	height: 30px;
+}
+
+.centered {
+	text-align: center;
+}
+.infobox {
+	float: right;
+	min-height: 100%;
+	width: 35%;
+	background: rgba(255, 255, 255, 0.95);
+}
