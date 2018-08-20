@@ -65,12 +65,6 @@ p, span, ul, li {
 	text-align: justify;
 }
 
-p, span {
-	font-size: 1.2em;
-}
-ul {
-	font-size: 1.4em;
-}
 
 a {
 	transition: all 0.1s ease;
