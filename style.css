@@ -8,18 +8,40 @@ body, html {
 	margin: 0px;
 }
 
-.bg { 
-    /* The image used */
-    background-image: url("img/backdrop.jpg");
+.bg {
 
     /* Full height */
-    height: 100%; 
+    height: 100vh;
 
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: auto;
+}
+.bg-main { 
+    /* The image used */
+    background-image: url("img/backdrop.jpg");
+}
+
+.bg-workers { 
+    /* The image used */
+    background-image: url("img/workers.jpg");
+}
+
+.bg-products { 
+    /* The image used */
+    background-image: url("img/swatches.jpg");
+    background-position: left;
+}
+
+.viewport {
+	min-height: 100vh;
+	overflow: auto;
+}
+
+.container-fluid {
+	padding: 0px;
 }
 
 h1, h2 {
@@ -37,11 +59,17 @@ h2 {
 	font-size: 1.4em;
 }
 
-p, span{
+p, span, ul, li {
 	font-family: didot;
 	color: rgb(59, 100, 46);
 	text-align: justify;
+}
+
+p, span {
 	font-size: 1.2em;
+}
+ul {
+	font-size: 1.4em;
 }
 
 a {
@@ -70,14 +98,47 @@ hr {
 
 .spacer {
 	height: 30px;
+	clear: both;
 }
 
 .centered {
 	text-align: center;
 }
+
 .infobox {
-	float: right;
 	min-height: 100%;
 	width: 35%;
 	background: rgba(255, 255, 255, 0.95);
+	position: relative;
 }
+.infobox-right {
+	float: right;
+}
+.infobox-left {
+	float: left;
+}
+
+.block-sep {
+	height: 10px;
+	background-color: rgba(255, 255, 255, 0.95);
+}
+
+.navi {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+}
+.price-container {
+
+}
+.price-container-left {
+	width: 50%;
+}
+.price-container-right {
+	float: right;
+	position: relative;
+	width: 50%;
+	height: 100%;
+}
+
